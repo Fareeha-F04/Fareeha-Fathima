@@ -10,19 +10,19 @@ export const Skills = () => {
       icon: BarChart3,
       title: t.skills.biTools,
       description: t.skills.biToolsDesc,
-      tools: ['Excel', 'Power BI', 'Tableau', 'Google Looker'],
+      tools: ['Excel', 'Power BI', 'Tableau', 'Qlik', 'Google Looker'],
     },
     {
       icon: Brain,
       title: t.skills.aiWorkflow,
       description: t.skills.aiWorkflowDesc,
-      tools: ['Claude', 'Perplexity', 'NotebookLM', 'Qwen'],
+      tools: ['Claude', 'Perplexity', 'NotebookLM', 'Gemini CLI', 'Qwen'],
     },
     {
       icon: Code,
       title: t.skills.webDev,
       description: t.skills.webDevDesc,
-      tools: ['Lovable.dev', 'V0 by Vercel', 'Float'],
+      tools: ['Lovable.dev', 'V0 by Vercel', 'Float', 'ZED'],
     },
     {
       icon: GitBranch,

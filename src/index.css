@@ -8,107 +8,107 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Sophisticated Blue Theme - Light Mode */
-    --background: 210 40% 98%;
-    --foreground: 215 25% 15%;
+    /* Sophisticated Deep Blue Theme - Light Mode */
+    --background: 210 30% 98%;
+    --foreground: 220 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 220 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 220 20% 20%;
 
-    /* Primary - Deep Professional Blue */
-    --primary: 215 80% 35%;
+    /* Primary - Deep Sophisticated Blue */
+    --primary: 220 70% 30%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary - Lighter Blue */
-    --secondary: 210 60% 92%;
-    --secondary-foreground: 215 80% 25%;
+    /* Secondary - Elegant Light Blue */
+    --secondary: 215 45% 88%;
+    --secondary-foreground: 220 70% 25%;
 
-    /* Muted - Soft Blue-Gray */
-    --muted: 210 30% 95%;
-    --muted-foreground: 215 15% 45%;
+    /* Muted - Refined Blue-Gray */
+    --muted: 215 20% 92%;
+    --muted-foreground: 220 15% 50%;
 
-    /* Accent - Vibrant Blue */
-    --accent: 210 100% 50%;
+    /* Accent - Refined Deep Blue */
+    --accent: 215 60% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 25% 88%;
-    --input: 214 25% 88%;
-    --ring: 215 80% 35%;
+    --border: 215 20% 85%;
+    --input: 215 20% 85%;
+    --ring: 220 70% 30%;
 
     --radius: 0.75rem;
 
-    /* Custom Portfolio Colors */
-    --hero-gradient-from: 215 100% 45%;
-    --hero-gradient-to: 210 100% 55%;
-    --section-bg: 210 40% 97%;
-    --skill-bg: 210 60% 95%;
+    /* Custom Portfolio Colors - Sophisticated Blues */
+    --hero-gradient-from: 220 65% 28%;
+    --hero-gradient-to: 215 60% 38%;
+    --section-bg: 215 25% 96%;
+    --skill-bg: 215 30% 93%;
     
     /* Sidebar */
-    --sidebar-background: 215 30% 96%;
-    --sidebar-foreground: 215 25% 20%;
-    --sidebar-primary: 215 80% 35%;
+    --sidebar-background: 215 25% 95%;
+    --sidebar-foreground: 220 20% 25%;
+    --sidebar-primary: 220 70% 30%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 60% 92%;
-    --sidebar-accent-foreground: 215 80% 25%;
-    --sidebar-border: 214 25% 88%;
-    --sidebar-ring: 215 80% 35%;
+    --sidebar-accent: 215 45% 88%;
+    --sidebar-accent-foreground: 220 70% 25%;
+    --sidebar-border: 215 20% 85%;
+    --sidebar-ring: 220 70% 30%;
   }
 
   .dark {
-    /* Sophisticated Blue Theme - Dark Mode */
-    --background: 215 30% 8%;
-    --foreground: 210 30% 95%;
+    /* Sophisticated Deep Blue Theme - Dark Mode */
+    --background: 220 25% 10%;
+    --foreground: 215 20% 90%;
 
-    --card: 215 25% 12%;
-    --card-foreground: 210 30% 95%;
+    --card: 220 22% 14%;
+    --card-foreground: 215 20% 90%;
 
-    --popover: 215 25% 12%;
-    --popover-foreground: 210 30% 95%;
+    --popover: 220 22% 14%;
+    --popover-foreground: 215 20% 90%;
 
-    /* Primary - Bright Blue for Dark Mode */
-    --primary: 210 100% 55%;
-    --primary-foreground: 215 30% 8%;
+    /* Primary - Refined Blue for Dark Mode */
+    --primary: 215 65% 50%;
+    --primary-foreground: 220 25% 10%;
 
-    /* Secondary - Deeper Blue */
-    --secondary: 215 40% 18%;
-    --secondary-foreground: 210 80% 85%;
+    /* Secondary - Deep Elegant Blue */
+    --secondary: 220 30% 20%;
+    --secondary-foreground: 215 60% 80%;
 
-    /* Muted - Dark Blue-Gray */
-    --muted: 215 25% 15%;
-    --muted-foreground: 210 20% 65%;
+    /* Muted - Dark Refined Blue-Gray */
+    --muted: 220 20% 18%;
+    --muted-foreground: 215 15% 60%;
 
-    /* Accent - Vibrant Light Blue */
-    --accent: 200 100% 60%;
-    --accent-foreground: 215 30% 8%;
+    /* Accent - Sophisticated Light Blue */
+    --accent: 210 70% 55%;
+    --accent-foreground: 220 25% 10%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 25% 20%;
-    --input: 215 25% 20%;
-    --ring: 210 100% 55%;
+    --border: 220 20% 22%;
+    --input: 220 20% 22%;
+    --ring: 215 65% 50%;
 
     /* Custom Portfolio Colors - Dark */
-    --hero-gradient-from: 215 85% 25%;
-    --hero-gradient-to: 210 85% 35%;
-    --section-bg: 215 28% 10%;
-    --skill-bg: 215 30% 14%;
+    --hero-gradient-from: 220 60% 22%;
+    --hero-gradient-to: 215 55% 32%;
+    --section-bg: 220 23% 12%;
+    --skill-bg: 220 25% 16%;
     
     /* Sidebar */
-    --sidebar-background: 215 28% 10%;
-    --sidebar-foreground: 210 30% 90%;
-    --sidebar-primary: 210 100% 55%;
-    --sidebar-primary-foreground: 215 30% 8%;
-    --sidebar-accent: 215 40% 18%;
-    --sidebar-accent-foreground: 210 80% 85%;
-    --sidebar-border: 215 25% 20%;
-    --sidebar-ring: 210 100% 55%;
+    --sidebar-background: 220 23% 12%;
+    --sidebar-foreground: 215 20% 85%;
+    --sidebar-primary: 215 65% 50%;
+    --sidebar-primary-foreground: 220 25% 10%;
+    --sidebar-accent: 220 30% 20%;
+    --sidebar-accent-foreground: 215 60% 80%;
+    --sidebar-border: 220 20% 22%;
+    --sidebar-ring: 215 65% 50%;
   }
 }
 

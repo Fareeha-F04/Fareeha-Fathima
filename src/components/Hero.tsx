@@ -19,7 +19,7 @@ export const Hero = () => {
       });
     }
   };
-  const handleDownloadResume = () => {
+  const handleViewResume = () => {
     const resumePath = language === 'fr' ? '/resumes/Fareeha_FATHIMA_FR.pdf' : '/resumes/Fareeha_FATHIMA_EN.pdf';
     window.open(resumePath, '_blank');
   };
@@ -46,7 +46,7 @@ export const Hero = () => {
                 {t.hero.cta}
                 <ArrowDown className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" onClick={handleDownloadResume} className="border-white text-white bg-transparent">
+              <Button size="lg" variant="outline" onClick={handleViewResume} className="border-white text-white hover:bg-white/10">
                 <Download className="mr-2 h-5 w-5" />
                 {t.hero.downloadResume}
               </Button>
@@ -66,8 +66,8 @@ export const Hero = () => {
 
           <div className="reveal flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-white/20 rounded-full blur-3xl"></div>
-              <img src={profilePhoto} alt="Fareeha Fathima" className="relative rounded-full w-80 h-80 object-cover border-4 border-white/30 shadow-2xl" />
+              <div className="absolute inset-0 bg-white/20 rounded-3xl blur-3xl"></div>
+              <img src={profilePhoto} alt="Fareeha Fathima" className="relative rounded-2xl w-80 h-96 object-cover border-4 border-white/30 shadow-2xl" />
             </div>
           </div>
         </div>

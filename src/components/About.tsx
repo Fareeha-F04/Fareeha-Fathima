@@ -68,21 +68,38 @@ export const About = () => {
 
           <Card className="hover-lift reveal">
             <CardContent className="p-6">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="p-3 rounded-lg bg-primary/10">
-                  <Globe className="h-6 w-6 text-primary" />
+              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <Globe className="h-5 w-5 text-primary" />
+                {t.about.languages}
+              </h3>
+              <div className="space-y-3">
+                <div>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-medium">{t.about.french}</span>
+                    <span className="text-sm text-muted-foreground">Bilingual</span>
+                  </div>
+                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
+                    <div className="h-full bg-primary rounded-full" style={{ width: '95%' }} />
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold">{t.about.languages}</h3>
-              </div>
-              <div className="flex flex-wrap gap-3">
-                {['English', 'French', 'Hindi', 'Urdu'].map((lang) => (
-                  <span
-                    key={lang}
-                    className="px-4 py-2 bg-primary/10 text-primary rounded-full font-medium"
-                  >
-                    {lang}
-                  </span>
-                ))}
+                <div>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-medium">{t.about.english}</span>
+                    <span className="text-sm text-muted-foreground">Bilingual</span>
+                  </div>
+                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
+                    <div className="h-full bg-primary rounded-full" style={{ width: '90%' }} />
+                  </div>
+                </div>
+                <div>
+                  <div className="flex justify-between mb-1">
+                    <span className="font-medium">{t.about.tamil}</span>
+                    <span className="text-sm text-muted-foreground">Native</span>
+                  </div>
+                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
+                    <div className="h-full bg-primary rounded-full" style={{ width: '100%' }} />
+                  </div>
+                </div>
               </div>
             </CardContent>
           </Card>
