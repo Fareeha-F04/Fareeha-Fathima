@@ -67,7 +67,7 @@ export const Hero = () => {
           <div className="reveal flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-white/20 rounded-3xl blur-3xl"></div>
-              <img src={profilePhoto} alt="Fareeha Fathima" className="relative rounded-2xl w-80 h-96 object-cover border-4 border-white/30 shadow-2xl" />
+              
             </div>
           </div>
         </div>
