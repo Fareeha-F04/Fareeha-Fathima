@@ -49,7 +49,11 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection('home')}
-            className="text-xl font-bold text-primary hover:text-accent smooth-transition"
+            className={`text-xl font-bold smooth-transition ${
+              isScrolled
+                ? 'text-primary hover:text-accent'
+                : 'text-white hover:text-white/90'
+            }`}
           >
             Fareeha Fathima
           </button>
@@ -65,7 +69,11 @@ export const Header = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary smooth-transition font-medium"
+                className={`smooth-transition font-medium ${
+                  isScrolled 
+                    ? 'text-foreground hover:text-primary' 
+                    : 'text-white hover:text-white/80'
+                }`}
               >
                 {item.label}
               </button>
@@ -75,7 +83,11 @@ export const Header = () => {
           <div className="flex items-center gap-2">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="icon">
+                <Button 
+                  variant="ghost" 
+                  size="icon"
+                  className={isScrolled ? '' : 'text-white hover:text-white hover:bg-white/10'}
+                >
                   <Languages className="h-5 w-5" />
                 </Button>
               </DropdownMenuTrigger>
@@ -89,7 +101,12 @@ export const Header = () => {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <Button variant="ghost" size="icon" onClick={toggleTheme}>
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              onClick={toggleTheme}
+              className={isScrolled ? '' : 'text-white hover:text-white hover:bg-white/10'}
+            >
               {theme === 'light' ? (
                 <Moon className="h-5 w-5" />
               ) : (

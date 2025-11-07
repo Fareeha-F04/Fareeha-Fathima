@@ -25,7 +25,7 @@ export const Hero = () => {
   };
   return <section id="home" className="min-h-screen flex items-center gradient-hero">
       <div className="container mx-auto px-4 py-20">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <div className="text-white space-y-6 reveal">
             <p className="text-lg font-medium opacity-90">{t.hero.greeting}</p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
@@ -35,10 +35,10 @@ export const Hero = () => {
               {t.hero.title}
             </h2>
             <p className="text-xl opacity-90">{t.hero.subtitle}</p>
-            <p className="text-lg opacity-85 max-w-xl">
+            <p className="text-lg opacity-85 max-w-2xl mx-auto">
               {t.hero.description}
             </p>
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 max-w-xl">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 max-w-xl mx-auto">
               <p className="text-sm font-medium">{t.hero.availability}</p>
             </div>
             <div className="flex flex-wrap gap-4 pt-4">
