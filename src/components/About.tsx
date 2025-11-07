@@ -74,31 +74,16 @@ export const About = () => {
               </h3>
               <div className="space-y-3">
                 <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="font-medium">{t.about.french}</span>
-                    <span className="text-sm text-muted-foreground">Bilingual</span>
-                  </div>
-                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                    <div className="h-full bg-primary rounded-full" style={{ width: '95%' }} />
-                  </div>
+                  <span className="font-medium">{t.about.hindi}</span>
                 </div>
                 <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="font-medium">{t.about.english}</span>
-                    <span className="text-sm text-muted-foreground">Bilingual</span>
-                  </div>
-                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                    <div className="h-full bg-primary rounded-full" style={{ width: '90%' }} />
-                  </div>
+                  <span className="font-medium">{t.about.urdu}</span>
                 </div>
                 <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="font-medium">{t.about.tamil}</span>
-                    <span className="text-sm text-muted-foreground">Native</span>
-                  </div>
-                  <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                    <div className="h-full bg-primary rounded-full" style={{ width: '100%' }} />
-                  </div>
+                  <span className="font-medium">{t.about.french}</span>
+                </div>
+                <div>
+                  <span className="font-medium">{t.about.english}</span>
                 </div>
               </div>
             </CardContent>

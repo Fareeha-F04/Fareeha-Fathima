@@ -1,7 +1,7 @@
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-import profilePhoto from '@/assets/profile-photo.jpg';
+
 export const Hero = () => {
   const {
     language,
@@ -25,7 +25,7 @@ export const Hero = () => {
   };
   return <section id="home" className="min-h-screen flex items-center gradient-hero">
       <div className="container mx-auto px-4 py-20">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto">
           <div className="text-white space-y-6 reveal">
             <p className="text-lg font-medium opacity-90">{t.hero.greeting}</p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
@@ -46,7 +46,7 @@ export const Hero = () => {
                 {t.hero.cta}
                 <ArrowDown className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" onClick={handleViewResume} className="border-white bg-transparent text-white">
+              <Button size="lg" variant="outline" onClick={handleViewResume} className="border-white bg-transparent text-white hover:bg-white hover:text-primary">
                 <Download className="mr-2 h-5 w-5" />
                 {t.hero.downloadResume}
               </Button>
@@ -64,12 +64,6 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="reveal flex justify-center">
-            <div className="relative">
-              <div className="absolute inset-0 bg-white/20 rounded-3xl blur-3xl"></div>
-              
-            </div>
-          </div>
         </div>
       </div>
     </section>;
