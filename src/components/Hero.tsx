@@ -41,7 +41,7 @@ export const Hero = () => {
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-4 max-w-xl mx-auto">
               <p className="text-sm font-medium">{t.hero.availability}</p>
             </div>
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-wrap justify-center gap-4 pt-4">
               <Button size="lg" onClick={() => scrollToSection('projects')} className="bg-white text-primary hover:bg-white/90">
                 {t.hero.cta}
                 <ArrowDown className="ml-2 h-5 w-5" />
@@ -51,14 +51,14 @@ export const Hero = () => {
                 {t.hero.downloadResume}
               </Button>
             </div>
-            <div className="flex gap-4 pt-4">
+            <div className="flex justify-center gap-4 pt-4">
               <Button size="icon" variant="ghost" className="text-white hover:bg-white/10" onClick={() => window.open('https://github.com/Fareeha-F04', '_blank')}>
                 <Github className="h-5 w-5" />
               </Button>
               <Button size="icon" variant="ghost" className="text-white hover:bg-white/10" onClick={() => window.location.href = 'mailto:fareehafathima2604@gmail.com'}>
                 <Mail className="h-5 w-5" />
               </Button>
-              <Button size="icon" variant="ghost" className="text-white hover:bg-white/10" onClick={() => window.open('https://linkedin.com', '_blank')}>
+              <Button size="icon" variant="ghost" className="text-white hover:bg-white/10" onClick={() => window.open('https://www.linkedin.com/in/fareeha-fathima', '_blank')}>
                 <Linkedin className="h-5 w-5" />
               </Button>
             </div>
