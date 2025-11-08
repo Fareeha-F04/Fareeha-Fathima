@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone, Linkedin } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -117,10 +117,10 @@ export const Contact = () => {
                 <Button
                   variant="outline"
                   size="lg"
-                  onClick={() => (window.location.href = 'mailto:fareehafathima2604@gmail.com')}
+                  onClick={() => window.open('https://www.linkedin.com/in/fareeha-fathima', '_blank')}
                 >
-                  <Mail className="mr-2 h-5 w-5" />
-                  fareehafathima2604@gmail.com
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  linkedin.com/in/fareeha-fathima
                 </Button>
               </div>
             </div>
