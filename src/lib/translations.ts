@@ -59,6 +59,7 @@ export const translations = {
     projects: {
       title: 'Featured Projects',
       viewGithub: 'View on GitHub',
+      viewProject: 'View Project',
       viewAllProjects: 'View All Projects on GitHub',
       biDashboard: 'Business Intelligence Dashboard',
       biDashboardDesc: 'Comprehensive Power BI/Tableau dashboard showcasing advanced data visualization and interactive reporting for business insights',
@@ -145,6 +146,7 @@ export const translations = {
     projects: {
       title: 'Projets en Vedette',
       viewGithub: 'Voir sur GitHub',
+      viewProject: 'Voir le Projet',
       viewAllProjects: 'Voir Tous les Projets sur GitHub',
       biDashboard: 'Tableau de Bord BI',
       biDashboardDesc: 'Tableau de bord Power BI/Tableau complet présentant visualisation avancée et reporting interactif',

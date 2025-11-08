@@ -68,22 +68,26 @@ export const About = () => {
 
           <Card className="hover-lift reveal">
             <CardContent className="p-6">
-              <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+              <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
                 <Globe className="h-5 w-5 text-primary" />
                 {t.about.languages}
               </h3>
-              <div className="space-y-3">
-                <div>
-                  <span className="font-medium">{t.about.hindi}</span>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="flex flex-col items-center text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                  <div className="text-2xl mb-2">🇮🇳</div>
+                  <span className="font-semibold text-sm">{t.about.hindi}</span>
                 </div>
-                <div>
-                  <span className="font-medium">{t.about.urdu}</span>
+                <div className="flex flex-col items-center text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                  <div className="text-2xl mb-2">🇵🇰</div>
+                  <span className="font-semibold text-sm">{t.about.urdu}</span>
                 </div>
-                <div>
-                  <span className="font-medium">{t.about.french}</span>
+                <div className="flex flex-col items-center text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                  <div className="text-2xl mb-2">🇫🇷</div>
+                  <span className="font-semibold text-sm">{t.about.french}</span>
                 </div>
-                <div>
-                  <span className="font-medium">{t.about.english}</span>
+                <div className="flex flex-col items-center text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                  <div className="text-2xl mb-2">🇬🇧</div>
+                  <span className="font-semibold text-sm">{t.about.english}</span>
                 </div>
               </div>
             </CardContent>

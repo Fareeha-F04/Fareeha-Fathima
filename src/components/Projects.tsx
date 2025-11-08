@@ -109,7 +109,7 @@ export const Projects = () => {
                       onClick={() => window.open('https://github.com/Fareeha-F04', '_blank')}
                     >
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
+                      {t.projects.viewProject}
                     </Button>
                   </div>
                 </CardContent>
